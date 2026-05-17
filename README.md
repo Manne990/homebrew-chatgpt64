@@ -47,7 +47,7 @@ brew untap Manne990/chatgpt64
 Update `Formula/chatgpt64.rb` when a new `chatgpt64` release is tagged:
 
 ```sh
-VERSION=0.1.0
+VERSION=0.1.1
 curl -L -o /tmp/chatgpt64-$VERSION.tar.gz \
   "https://github.com/Manne990/chatgpt64/archive/refs/tags/v$VERSION.tar.gz"
 shasum -a 256 /tmp/chatgpt64-$VERSION.tar.gz

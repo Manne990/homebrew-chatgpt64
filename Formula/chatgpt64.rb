@@ -1,8 +1,8 @@
 class Chatgpt64 < Formula
   desc "Local retro-computer terminal bridge to OpenAI"
   homepage "https://github.com/Manne990/chatgpt64"
-  url "https://github.com/Manne990/chatgpt64/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "3e2b9ba7026a2be893b63eb68a849f5f80f6f4e9ae51f446fdcd9edf149d5804"
+  url "https://github.com/Manne990/chatgpt64/archive/refs/tags/v0.1.1.tar.gz"
+  sha256 "61bb47e3a52e83d45bc4f089a13667b33a6b9378fab1038c657f37d03aa044cd"
   license "MIT"
 
   depends_on "node"
