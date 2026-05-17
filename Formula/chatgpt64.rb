@@ -1,8 +1,8 @@
 class Chatgpt64 < Formula
   desc "Local retro-computer terminal bridge to OpenAI"
   homepage "https://github.com/Manne990/chatgpt64"
-  url "https://github.com/Manne990/chatgpt64/archive/refs/tags/v0.1.1.tar.gz"
-  sha256 "61bb47e3a52e83d45bc4f089a13667b33a6b9378fab1038c657f37d03aa044cd"
+  url "https://github.com/Manne990/chatgpt64/archive/refs/tags/v0.1.2.tar.gz"
+  sha256 "92fbe4ffc06866843ea54f8692ef4030c207339e70da2637a400c379f9d2cdf4"
   license "MIT"
 
   depends_on "node"
@@ -18,10 +18,11 @@ class Chatgpt64 < Formula
         chatgpt64 setup
         chatgpt64 start
         chatgpt64 tcpser
+        chatgpt64 vice
 
       Your OpenAI API key is stored locally in your user config directory.
       Retro clients connect to the local bridge, not directly to OpenAI.
-      Install tcpser separately if you use CCGMS/VICE modem emulation.
+      Install tcpser and VICE separately if you use CCGMS/VICE modem emulation.
     EOS
   end
 

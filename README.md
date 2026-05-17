@@ -22,6 +22,12 @@ For VICE/CCGMS modem emulation, run this in a second terminal:
 chatgpt64 tcpser
 ```
 
+Start VICE in a third terminal:
+
+```sh
+chatgpt64 vice
+```
+
 In CCGMS, dial:
 
 ```text
@@ -47,7 +53,7 @@ brew untap Manne990/chatgpt64
 Update `Formula/chatgpt64.rb` when a new `chatgpt64` release is tagged:
 
 ```sh
-VERSION=0.1.1
+VERSION=0.1.2
 curl -L -o /tmp/chatgpt64-$VERSION.tar.gz \
   "https://github.com/Manne990/chatgpt64/archive/refs/tags/v$VERSION.tar.gz"
 shasum -a 256 /tmp/chatgpt64-$VERSION.tar.gz
